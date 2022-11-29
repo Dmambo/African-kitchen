@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.signin {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image {
+    margin-top: 5px;
+}
+
+.signin h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+     border: 1px solid green;
+     background-color: green;  
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+}
+
+.line {
+    color: black;
+}
+
+.signin input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 2px;
+    width: 250px;
+    text-indent: 30px;
+    position: relative;
+    border: none;
+}
+
+.username input {
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.username .user-icon {
+    position: absolute;
+    top: 365px;
+    left: 80px;
+    /* transform: translateY(-50%); */
+    z-index: 100;
+}
+
+.password .pass-icon {
+    position: absolute;
+    top: 430px;
+    left: 80px;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.password input {
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+.remind {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.forgot-password a{
+    color: green;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.social a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.social a:hover {
+    color: green;
+}
+
+.account-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 12px;
+}
+
+.account-signup a {
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
