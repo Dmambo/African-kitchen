@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-image {
+  margin-top: 15px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.signup-form h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(251, 243, 243);
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(3, 59, 226);
+    }
+
+.signup-form form {
+    padding: 40px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.input input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  outline: none;
+  position: relative;
+  text-indent: 20px;
+}
+.username,
+.password,
+.email,
+.confirm-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+.username input {
+  position: relative;
+}
+
+.username .user-icon {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  color: black;
+  z-index: 2;
+}
+
+.email input{
+  position: relative;
+}
+
+.email .email-icon {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  color: black;
+  z-index: 2;
+}
+
+.password input {
+  position: relative;
+}
+
+.password .pass-icon {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  color: black;
+  z-index: 2;
+}
+.confirm-password input {
+  position: relative;
+}
+
+.confirm-password .pass-icon {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  color: black;
+  z-index: 2;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 8px;
+  background-color: green;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 8px;
+  font-size: 1.0rem;
+  margin-top: 50px;
+
+}
+
+.login a {
+  text-decoration: none;
+  color: blue;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 5px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.social a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.social a:hover {
+  color: green;
+}
