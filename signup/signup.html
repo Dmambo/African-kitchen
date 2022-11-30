@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>African-Kitchen</title>
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
 </head>
 <body>
-    <div class="login">
-        <div class="login-image">
-            <img src="/images/login-imagee.png" alt="login-images" width="100%" height="250px">
+    <div class="signup">
+        <div class="signup-image">
+            <img src="/images/login-imagee.png" alt="signup-image" width="100%" height="250px">
         </div>
-        <div class="signin">
-            <h1>Sign In</h1>
+        <div class="signup-form">
+            <h1>Sign Up</h1>
             <hr class="line">
-            <form action="login.php" method="POST">
+            <form action="" method="POST">
                 <div class="input">
                     <div class="username">
                         <ion-icon name="person-circle-outline" class="user-icon"></ion-icon>
                         <input type="text" name="username" placeholder="Username" required>
                     </div>
+                    <div class="email">
+                        <ion-icon name="mail-outline" class="email-icon"></ion-icon>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
                     <div class="password">
                         <ion-icon name="lock-closed-outline" class="pass-icon"></ion-icon>
                         <input type="password" name="password" placeholder="Password" required>
                     </div>
+                    <div class="confirm-password">
+                        <ion-icon name="lock-closed-outline" class="pass-icon"></ion-icon>
+                        <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+                    </div>
                 </div>
-                        <input type="submit" name="submit" value="Sign In" class="submit-btn">
-            </form>    
-        </div>
-
-    </div>
-    <div class="remind">
-        <div class="remember-me">
-            <input type="checkbox" name="remember" id="remember">
-            <label for="remember">Remember Me</label>
-        </div>
-        <div class="forgot-password">
-            <a href="#">Forgot Password?</a>
+                <input type="submit" name="submit" value="Sign Up" class="submit-btn">
+            </form>
         </div>
     </div>
-
+    <div class="login">
+        <p>Already have an account? <a href="/loginpage/index.html">Login</a></p>
+    </div>
+    <div class="or">
+        <hr><p>Or</p><hr>
+    </div>
     <div class="social">
         <a href="https://www.twitter.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
         <a href="https://www.facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -48,7 +51,6 @@
         <a href="https://www.gmail.com" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
     </div>
 
-    <p class="account-signup">Don't have an account? <a href="/signup/signup.html">Sign Up</a></p>
     <!-- javascript section  -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
